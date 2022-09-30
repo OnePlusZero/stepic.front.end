@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: #E5E5E5; 
+}
+.header{
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 7px rgba(129, 129, 129, 0.25);
+}
+.nav{
+    height: 100px;
+    background-color: rgb(6, 39, 99);
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+.menu {
+    padding:0 50px;
+    height: 100px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 7px rgba(129, 129, 129, 0.25);
+  }
+  .header {
+    padding: 0 50px;
+    height: 100px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .menu__ul {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.015em;
+    
+    color: #05A88D;
+  }
+  
+  .menu__link {
+    color: #000000;
+    font-weight: 300;
+    font-size: 16px;
+    margin: 0;
+    text-decoration: none;
+    margin: 0 10px;
+    flex-wrap: wrap;
+  }
+  
+  .menu__link:hover {
+    color: #05a88d;
+  }
+  .menu__li {
+    display: flex;
+    justify-content: space-between;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .menu__logo {
+    color: #05a88d;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+ padding-left: 150px;
+    padding-right: 150px;
+  }
+  
+  .three {
+    color: #05a88d;
+  }
+  
+  .menu__signup {
+    color: #05a88d;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 16px;
+    border: 1px solid #05a88d;
+    box-sizing: border-box;
+    border-radius: 3px;
+    padding: 12.5px;
+  }
+  
+  .menu__login {
+    color: #05a88d;
+    border: none;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 16px;
+    padding-left: 69.5px;
+  }
